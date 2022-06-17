@@ -5,7 +5,7 @@ from sklearn.utils import check_array
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import IsolationForest
 from torch.utils.data import DataLoader
-from deep_if.dif_pkg import net_torch, net_util
+from dif_pkg import net_torch, net_util
 from multiprocessing import Pool
 from tqdm import tqdm
 import random
