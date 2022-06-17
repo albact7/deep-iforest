@@ -1,4 +1,4 @@
-from algorithms.dif_pkg import net_torch
+from deep_if.dif_pkg import net_torch
 
 
 def choose_net(network_name):
@@ -29,7 +29,7 @@ def choose_net(network_name):
     elif network_name == 'lstm':
         return net_torch.LSTMNet
     elif network_name == 'gin':
-        from algorithms.dif_pkg import net_graph
+        from deep_if.dif_pkg import net_graph
         return net_graph.GinEncoderGraph
     else:
         raise NotImplementedError("")
