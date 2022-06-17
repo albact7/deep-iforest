@@ -5,7 +5,7 @@ setup(
    version='1.1',
    author='Xu, Hongzuo and Pang, Guansong and Wang, Yijie and Wang, Yongjun',
    url='https://github.com/xuhongzuo/deep-iforest',
-   packages=['deep_if'], 
+   packages=find_packages(include=['deep_if', 'deep_if.*']),
    install_requires= [
     "absl-py==1.1.0",
     "ase==3.22.1",
