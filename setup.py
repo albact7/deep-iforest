@@ -7,6 +7,7 @@ setup(
    url='https://github.com/xuhongzuo/deep-iforest',
    packages=find_packages(include=['deep_if', 'deep_if.*']),
    install_requires= [
+    "wheel",
     "absl-py==1.1.0",
     "ase==3.22.1",
     "asttokens==2.0.5",
